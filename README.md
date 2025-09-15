@@ -5,34 +5,16 @@ The user can input a shot angle and power (like hitting a cue ball with a stick)
 
 ---
 
-## 🎯 Features
-- Connects Python with CoppeliaSim via ZMQ Remote API.
-- User input: **shot angle (degrees)** and **power (scalar)**.
-- Input is converted into a global force vector applied to the cue ball.
-- Prints updated ball positions after each shot.
-- Educational purpose: understanding how to acquire data and send commands in CoppeliaSim.
-
 ## ⚙️ Installation
 1. Make sure **Python 3.8+** is installed.  
 2. Install the required libraries:  
    ```bash
    pip install coppeliasim-zmqremoteapi-client numpy
 
-## 🛠️ Tantangan
-- Perbedaan versi API (misalnya fungsi addForceAndTorque tidak selalu sama).
-- Konversi input sederhana (sudut + power) menjadi vektor gaya global.
-- Sinkronisasi antara Python dan simulasi di CoppeliaSim.
-
-## ✨ Skill yang Dipelajari
-- Integrasi Python–CoppeliaSim menggunakan ZMQ Remote API.
-- Simulasi gaya impulsif dan torsi.
-- Membuat program interaktif sederhana via terminal.
-
 ## 🚀 How to Run
 - Open CoppeliaSim and load a scene containing:
-  
+  ```bash
   Green ball → /Sphere[0]
-  
   White (cue) ball → /Sphere[6]
 - Start the simulation in CoppeliaSim (or let the script start it automatically).
 - Run the program in the terminal:testplay.py
@@ -52,7 +34,3 @@ The user can input a shot angle and power (like hitting a cue ball with a stick)
 - Example result:
    ```bash
    {'green': (0.523, 1.240), 'white': (1.875, 0.664)}
-
----
-
-<img width="500" height="206" alt="image" src="https://github.com/user-attachments/assets/61b7ee59-2dc5-4ffb-85f1-05710c14791c" /> 
