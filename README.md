@@ -6,27 +6,27 @@ Proyek ini mengimplementasikan permainan billiard virtual sederhana menggunakan 
 
 ## 🎯 Fitur
 - Menghubungkan Python dengan CoppeliaSim melalui ZMQ Remote API.
-- Input dari pengguna berupa **sudut pukulan (derajat)** dan **power (skalar)**.
+- Input dari pengguna berupa sudut pukulan (derajat) dan power (skalar).
 - Input dikonversi menjadi vektor gaya global yang diberikan ke bola putih.
 - Menampilkan posisi terbaru dari bola setelah setiap pukulan.
 - Ditujukan untuk tujuan edukasi: memahami cara mengambil data dan mengirim perintah di CoppeliaSim.
 
 ## 📦 Kebutuhan
-- **CoppeliaSim** terpasang di komputer.
-- **Python 3.8+**
+- CoppeliaSim terpasang di komputer.
+- Python 3.8+
 - Library Python yang diperlukan:
   ```bash
   pip install coppeliasim-zmqremoteapi-client numpy
 
 ## 🛠️ Tantangan
--Perbedaan versi API (misalnya fungsi addForceAndTorque tidak selalu sama).
--Konversi input sederhana (sudut + power) menjadi vektor gaya global.
--Sinkronisasi antara Python dan simulasi di CoppeliaSim.
+- Perbedaan versi API (misalnya fungsi addForceAndTorque tidak selalu sama).
+- Konversi input sederhana (sudut + power) menjadi vektor gaya global.
+- Sinkronisasi antara Python dan simulasi di CoppeliaSim.
 
 ## ✨ Skill yang Dipelajari
--Integrasi Python–CoppeliaSim menggunakan ZMQ Remote API.
--Simulasi gaya impulsif dan torsi.
--Membuat program interaktif sederhana via terminal.
+- Integrasi Python–CoppeliaSim menggunakan ZMQ Remote API.
+- Simulasi gaya impulsif dan torsi.
+- Membuat program interaktif sederhana via terminal.
 
 ---
 
