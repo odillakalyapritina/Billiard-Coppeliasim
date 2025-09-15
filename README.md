@@ -1,7 +1,7 @@
 # Billiard-Coppeliasim
 <img width="1385" height="669" alt="Screenshot 2025-09-15 235325" src="https://github.com/user-attachments/assets/fa55f822-eeb1-4b45-9663-c1d3b0946cb4" />
-This project implements a simple **virtual billiard game** using **CoppeliaSim** and **Python (ZMQ Remote API)**.  
-The user can input a **shot angle** and **power** (like hitting a cue ball with a stick), and the program will translate it into a force applied to the white ball.  
+This project implements a simple virtual billiard game using CoppeliaSim and Python (ZMQ Remote API).  
+The user can input a shot angle and power (like hitting a cue ball with a stick), and the program will translate it into a force applied to the white ball.  
 
 ---
 
