@@ -17,20 +17,9 @@ The user can input a shot angle and power (like hitting a cue ball with a stick)
   Green ball → /Sphere[0]
   White (cue) ball → /Sphere[6]
 - Start the simulation in CoppeliaSim (or let the script start it automatically).
-- Run the program in the terminal:testplay.py
+- Run the program
 - Follow the terminal instructions to enter the shot angle and power.
 
 ## ⌨️ Supported Input
 - Shot Angle (deg) → in degrees (0° = +X axis direction).
 - Power → positive real number (e.g., 10 = soft shot, 50 = strong shot).
-- Exit the program → type q when asked for the angle.
-- Example input:
-   ```bash
-   Angle (deg, 0=+X): 45
-   Power (e.g. 10=soft, 50=strong): 30
-
-## 📤 Example Output
-- After the shot is applied and the simulation runs for ~3 seconds, the ball positions are printed in the terminal.
-- Example result:
-   ```bash
-   {'green': (0.523, 1.240), 'white': (1.875, 0.664)}
